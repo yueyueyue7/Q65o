@@ -1,0 +1,593 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한글날 이벤트 PC</title>
+    <style>
+      html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-style: inherit;
+        font-variant: inherit;
+        font-stretch: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-family: inherit;
+        font-optical-sizing: inherit;
+        font-kerning: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        vertical-align: baseline;
+        font-weight: normal;
+      }
+
+      .kfOgUl {
+        display: block;
+        width: 100%;
+        margin-bottom: 100px;
+        position: relative;
+        /* padding: 0px 48px; */
+        box-sizing: border-box;
+        z-index: 0;
+        line-height: 1.6;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(31, 31, 31);
+        text-align: center;
+        word-break: break-word;
+      }
+    </style>
+    <style>
+      /*!sc*/
+      .kfOgUl {
+        display: block;
+        width: 100%;
+        margin-bottom: 100px;
+        position: relative;
+        padding: 0 48px;
+        box-sizing: border-box;
+        z-index: 0;
+        line-height: 1.6;
+        font-size: 16px;
+        font-weight: 400;
+        color: #1f1f1f;
+        text-align: center;
+        word-break: break-word;
+      }
+      /*!sc*/
+      .kfOgUl b,
+      .kfOgUl strong {
+        font-weight: bold;
+      }
+      /*!sc*/
+      .kfOgUl em {
+        font-style: italic;
+      }
+      /*!sc*/
+      .kfOgUl h3 {
+        padding: inherit;
+        line-height: inherit;
+        margin: inherit;
+        text-overflow: inherit;
+        overflow: inherit;
+        white-space: inherit;
+      }
+      /*!sc*/
+      .kfOgUl li {
+        list-style: inherit;
+      }
+      /*!sc*/
+      .kfOgUl img {
+        display: inline-block;
+        max-width: 100%;
+      }
+      /*!sc*/
+      .kfOgUl::after,
+      .kfOgUl::before {
+        display: table;
+        content: " ";
+        clear: both;
+      }
+      /*!sc*/
+      .kfOgUl .full-width {
+        position: relative;
+        width: calc(100vw - 17px);
+        left: calc(-50vw + 8.5px);
+        min-width: 1380px;
+        margin-left: 50%;
+      }
+      /*!sc*/
+      @media (max-width: 1380px) {
+        .kfOgUl .full-width {
+          width: 1363/2px;
+          left: -698.5px;
+        }
+      }
+      /*!sc*/
+      data-styled.g515[id="j5dsqb-0"] {
+        content: "kfOgUl,";
+      }
+    </style>
+    <style>
+      .other-site-ui {
+        height: 323px;
+      }
+
+      .pc-layout {
+        min-width: 1380px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+    <link rel="stylesheet" href="https://www.thecartgolf.com/_next/static/public/lib/css/swiper.6f831a2cd3a66125860b090b99b5497e.css">
+    <!-- <script type="module" integrity="sha512-7Y25+FX/kRUbZEHtQBOSLffzofBxz8ABQErLAVpGkfzactkpJU5wtTmhIfIZeTw7VHg1JeTIC5kHkzPq7LqR1w==" src="/.11ty/reload-client.js"></script> -->
+  </head>
+  <body>
+    <!-- <div class="other-site-ui">Site UI 영역</div> -->
+    <div class="pc-layout">
+      <div class="kfOgUl">
+<style>@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+/* fonts */
+.visually-hidden:not(:focus) {
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* layout */
+.hangul-day {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: "NEXON Lv1 Gothic OTF", sans-serif;
+  color: #000;
+  text-align: center;
+}
+.hangul-day p,
+.hangul-day img {
+  display: block;
+  width: 100%;
+}
+.hangul-day button {
+  display: block;
+  background: none;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.hangul-day a {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: currentColor;
+  font: inherit;
+}
+.hangul-day ul,
+.hangul-day li {
+  list-style: none;
+}
+.hangul-day .bold {
+  font-weight: 700;
+}
+.hangul-day .text-white {
+  color: #fff;
+}
+.hangul-day .text-gold {
+  color: #b97a34;
+}
+.evt-visual {
+  background: center/auto 100% no-repeat url(./images/visual-bg.jpg);
+  height: clamp(656.9375px, 0px + 47.6041666667vw, 914px);
+  position: relative;
+}
+.evt-visual::before {
+  content: "더카트골프 한글날 기념 이벤트";
+  font-size: 0;
+  position: absolute;
+  top: clamp(92px, 0px + 6.6666666667vw, 128px);
+  left: 0;
+  width: 100%;
+  height: clamp(12.9375px, 0px + 0.9375vw, 18px);
+  background: center/100% no-repeat url(./images/visual-sub-text.png);
+}
+.evt-visual__title-summary {
+  padding: clamp(127.9375px, 0px + 9.2708333333vw, 178px) 0 clamp(43.125px, 0px + 3.125vw, 60px);
+}
+.evt-visual__title-description {
+  margin-top: clamp(39.53125px, 0px + 2.8645833333vw, 55px);
+  font-size: clamp(18.6875px, 0px + 1.3541666667vw, 26px);
+  line-height: clamp(28.75px, 0px + 2.0833333333vw, 40px);
+  text-shadow: 1px 1px 10px rgba(1, 3, 0, 0.1);
+  letter-spacing: -0.006em;
+}
+.evt-visual__title-date {
+  margin-top: clamp(25.875px, 0px + 1.875vw, 36px);
+  font-size: clamp(18.6875px, 0px + 1.3541666667vw, 26px);
+  line-height: clamp(28.75px, 0px + 2.0833333333vw, 40px);
+  text-shadow: 1px 1px 10px rgba(1, 3, 0, 0.1);
+  letter-spacing: 0.02em;
+}
+.evt-visual__title-text-motion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: clamp(15.09375px, 0px + 1.09375vw, 21px);
+       column-gap: clamp(15.09375px, 0px + 1.09375vw, 21px);
+}
+.evt-visual__title-text-motion .text-motion {
+  position: relative;
+  width: clamp(163.875px, 0px + 11.875vw, 228px);
+  height: clamp(163.875px, 0px + 11.875vw, 228px);
+  border-radius: 100%;
+  background-color: #031203;
+  box-shadow: 4px 7px 13px 0px rgba(1, 3, 0, 0.2);
+}
+.evt-visual__title-text-motion .text-motion__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.evt-visual__title-text-motion .text-motion__item::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: #031203;
+  box-shadow: 4px 7px 13px 0px rgba(1, 3, 0, 0.2);
+  z-index: 3;
+}
+.evt-visual__title-text-motion .text-motion__item:first-child {
+  z-index: 3;
+}
+.evt-visual__title-text-motion .text-motion__item:first-child.col::before {
+  animation: topToBottom 1s cubic-bezier(0.12, 0.47, 0.89, 1) forwards 0.5s;
+}
+.evt-visual__title-text-motion .text-motion__item:first-child.row::before {
+  animation: leftToRight 1s cubic-bezier(0.12, 0.47, 0.89, 1) forwards 0.5s;
+}
+.evt-visual__title-text-motion .text-motion__item:last-child {
+  z-index: 2;
+}
+.evt-visual__title-text-motion .text-motion__item:last-child.col::before {
+  animation: topToBottom 1.2s cubic-bezier(0.12, 0.47, 0.89, 1) forwards 1s;
+}
+.evt-visual__title-text-motion .text-motion__item:last-child.row::before {
+  animation: leftToRight 1.2s cubic-bezier(0.12, 0.47, 0.89, 1) forwards 1s;
+}
+@keyframes topToBottom {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
+@keyframes leftToRight {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+.evt-section-01 {
+  background: center/auto 100% no-repeat url(./images/01-bg.jpg);
+  height: clamp(500.25px, 0px + 36.25vw, 696px);
+  letter-spacing: -0.02em;
+}
+.evt-section-01 .evt-section__title-summary {
+  padding-top: clamp(86.25px, 0px + 6.25vw, 120px);
+}
+.evt-section-01 .evt-section__title-description {
+  font-size: clamp(17.25px, 0px + 1.25vw, 24px);
+  margin-top: clamp(23.71875px, 0px + 1.71875vw, 33px);
+}
+.evt-section-01 .evt-section__content-question {
+  font-size: clamp(17.25px, 0px + 1.25vw, 24px);
+  margin-top: clamp(29.46875px, 0px + 2.1354166667vw, 41px);
+  margin-bottom: clamp(14.375px, 0px + 1.0416666667vw, 20px);
+}
+.evt-section-01 .evt-section__content-form {
+  margin-top: clamp(21.5625px, 0px + 1.5625vw, 30px);
+}
+.evt-section-01 .quiz-form__wrap {
+  display: flex;
+  width: clamp(347.875px, 0px + 25.2083333333vw, 484px);
+  height: clamp(48.875px, 0px + 3.5416666667vw, 68px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.evt-section-01 .quiz-form__input {
+  outline: none;
+  border-radius: 0;
+  display: block;
+  width: clamp(288.9375px, 0px + 20.9375vw, 402px);
+  height: 100%;
+  background: transparent;
+  color: #fff;
+  font-size: clamp(15.8125px, 0px + 1.1458333333vw, 22px);
+  font-family: inherit;
+  padding-left: clamp(17.96875px, 0px + 1.3020833333vw, 25px);
+  padding-right: clamp(17.96875px, 0px + 1.3020833333vw, 25px);
+  border: clamp(3.59375px, 0px + 0.2604166667vw, 5px) solid #c7a278;
+  box-sizing: border-box;
+}
+.evt-section-01 .quiz-form__button {
+  font-size: 0;
+  width: clamp(62.53125px, 0px + 4.53125vw, 87px);
+  height: 100%;
+  margin-left: clamp(-5px, (0px + 0.2604166667vw) * -1, -3.59375px);
+  background: center/clamp(31.625px, 0px + 2.2916666667vw, 44px) #c7a278 no-repeat url(./images/01-submit.png);
+}
+.evt-section-02 {
+  background: center/auto 100% no-repeat url(./images/02-bg.jpg);
+  height: clamp(835.1875px, 0px + 60.5208333333vw, 1162px);
+  color: #333;
+}
+.evt-section-02 .evt-section__title-summary {
+  padding-top: clamp(97.75px, 0px + 7.0833333333vw, 136px);
+  margin-bottom: clamp(24.4375px, 0px + 1.7708333333vw, 34px);
+}
+.evt-section-02 .evt-section__title-description {
+  font-size: clamp(17.25px, 0px + 1.25vw, 24px);
+  line-height: clamp(28.03125px, 0px + 2.03125vw, 39px);
+  margin-bottom: clamp(30.90625px, 0px + 2.2395833333vw, 43px);
+  letter-spacing: -0.02em;
+}
+.evt-section-02 .evt-section__title-description .bold {
+  -webkit-text-stroke: clamp(0.071875px, 0px + 0.0052083333vw, 0.1px) #333;
+  text-stroke: clamp(0.071875px, 0px + 0.0052083333vw, 0.1px) #333;
+}
+.evt-section-02 .evt-section__content-description {
+  width: clamp(301.875px, 0px + 21.875vw, 420px);
+  margin: clamp(19.40625px, 0px + 1.40625vw, 27px) auto clamp(25.875px, 0px + 1.875vw, 36px);
+}
+.evt-section-02 .evt-section__content-description li {
+  display: flex;
+  font-size: clamp(17.25px, 0px + 1.25vw, 24px);
+  text-align: left;
+}
+.evt-section-02 .evt-section__content-description li .title {
+  width: clamp(132.25px, 0px + 9.5833333333vw, 184px);
+}
+.evt-section-02 .evt-section__content-link {
+  width: clamp(434.84375px, 0px + 31.5104166667vw, 605px);
+  margin: 0 auto;
+}
+.evt-notice {
+  background-color: #161616;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+.evt-notice .evt-notice__title {
+  width: 100%;
+  height: clamp(48.875px, 0px + 3.5416666667vw, 68px);
+  border-top: 1px solid #4c4736;
+  border-bottom: 1px solid #4c4736;
+}
+.evt-notice .evt-notice__button {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: clamp(17.96875px, 0px + 1.3020833333vw, 25px);
+}
+.evt-notice .evt-notice__button span {
+  display: block;
+  position: relative;
+  font-size: 0;
+  width: clamp(53.90625px, 0px + 3.90625vw, 75px);
+  height: 100%;
+  background: 0 center/100% no-repeat url(./images/notice-text.png);
+}
+.evt-notice .evt-notice__button::after {
+  content: "";
+  display: block;
+  width: clamp(10.0625px, 0px + 0.7291666667vw, 14px);
+  height: 100%;
+  background: center/100% no-repeat url(./images/notice-arrow.png);
+  transform: rotate(180deg);
+}
+.evt-notice .evt-notice__content {
+  display: none;
+  padding: clamp(57.5px, 0px + 4.1666666667vw, 80px) 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+.evt-notice .evt-notice__content > li {
+  position: relative;
+  padding-left: clamp(7.1875px, 0px + 0.5208333333vw, 10px);
+  font-size: clamp(11.5px, 0px + 0.8333333333vw, 16px);
+}
+.evt-notice .evt-notice__content > li::before {
+  content: "";
+  position: absolute;
+  top: 0.9375em;
+  left: 0;
+  width: clamp(3.59375px, 0px + 0.2604166667vw, 5px);
+  height: clamp(1.4375px, 0px + 0.1041666667vw, 2px);
+  background: #fff;
+}
+.evt-notice.active .evt-notice__content {
+  display: block;
+}
+.evt-notice.active .evt-notice__button::after {
+  transform: rotate(0);
+}</style>
+
+<div class="full-width">
+  <div class="hangul-day evt-visual">
+    <div class="evt-visual__title">
+      <p class="evt-visual__title-summary">
+        <img src="./images/visual-title-summary.png" alt="한글날 기념 이벤트">
+      </p>
+      <!-- 모션 -->
+      <div class="evt-visual__title-text-motion">
+        <div class="text-motion">
+          <div class="text-motion__item col">
+            <img src="./images/visual-motion-01-col.png" alt="ㄷ">
+          </div>
+          <div class="text-motion__item row">
+            <img src="./images/visual-motion-01-row.png" alt="ㄷ">
+          </div>
+        </div>
+        <div class="text-motion">
+          <div class="text-motion__item row">
+            <img src="./images/visual-motion-02-row.png" alt="ㅋ">
+          </div>
+          <div class="text-motion__item col">
+            <img src="./images/visual-motion-02-col.png" alt="ㅋ">
+          </div>
+        </div>
+        <div class="text-motion">
+          <div class="text-motion__item col">
+            <img src="./images/visual-motion-03-col.png" alt="ㅌ">
+          </div>
+          <div class="text-motion__item row">
+            <img src="./images/visual-motion-03-row.png" alt="ㅌ">
+          </div>
+        </div>
+        <div class="text-motion">
+          <div class="text-motion__item row">
+            <img src="./images/visual-motion-04-row.png" alt="ㄱ">
+          </div>
+          <div class="text-motion__item col">
+            <img src="./images/visual-motion-04-col.png" alt="ㄱ">
+          </div>
+        </div>
+        <div class="text-motion">
+          <div class="text-motion__item row">
+            <img src="./images/visual-motion-05-row.png" alt="ㅍ">
+          </div>
+          <div class="text-motion__item col">
+            <img src="./images/visual-motion-05-col.png" alt="ㅍ">
+          </div>
+        </div>
+      </div>
+      <p class="evt-visual__title-description">
+        아름다운 우리의 한글을 기념하며,<br>
+        한글 초성 문제 맞추고 <span class="bold text-gold">컷골프 골프공 100원 쿠폰</span>을 받아보세요.
+      </p>
+      <p class="evt-visual__title-date">10/9(월) - 10/15(일)</p>
+    </div>
+  </div>
+  <!-- 한글 초성 문제 영역 -->
+  <div class="hangul-day evt-section evt-section-01">
+    <div class="evt-section__title">
+      <p class="evt-section__title-summary">
+        <img src="./images/01-summary.png" alt="한글 초성 문제">
+      </p>
+      <p class="evt-section__title-description text-white">
+        아래 문제를 읽고 이에 해당하는 골프 용어를 한글로 입력해주세요!
+      </p>
+    </div>
+    <div class="evt-section__content">
+      <p class="evt-section__content-question text-white">‘ 공을 한 번에 넣는 것을 의미하는 골프 용어는? ’</p>
+      <p class="evt-section__content-hint">
+        <img src="./images/01-hint.png" alt="[ㅎㅇㅇ]">
+      </p>
+      <!-- 초성 문제 입력 영역 -->
+      <div class="evt-section__content-form">
+        <form class="quiz-form">
+          <div class="quiz-form__wrap">
+            <input type="text" class="quiz-form__input" placeholder="정답을 입력해주세요.">
+            <button type="submit" class="quiz-form__button">확인</button>
+          </div>
+        </form>
+      </div>
+      <!-- // 초성 문제 입력 영역 -->
+    </div>
+  </div>
+
+  <div class="hangul-day evt-section evt-section-02">
+    <div class="evt-section__title">
+      <p class="evt-section__title-summary">
+        <img src="./images/02-summary.png" alt="컷골프 100원 쿠폰">
+      </p>
+      <p class="evt-section__title-description">
+        초성 문제의 정답을 맞춘 모두에게<br>
+        <span class="bold">컷골프(3구)를 100원에 구매</span>할 수 있는 쿠폰을 증정합니다.
+      </p>
+    </div>
+    <div class="evt-section__content">
+      <div class="evt-section__content-gift">
+        <img src="./images/02-gift.png" alt="컷골프 100원 구매 쿠폰">
+      </div>
+      <ul class="evt-section__content-description">
+        <li>
+          <span class="title">이벤트 기간</span>
+          <span class="content">10/9(월) - 10/15(일)</span>
+        </li>
+        <li>
+          <span class="title">쿠폰 사용기간</span>
+          <span class="content">쿠폰 다운로드 후 7일</span>
+        </li>
+      </ul>
+      <!-- 상품 보러가기 링크 -->
+      <a href="#" class="evt-section__content-link" target="_blank">
+        <img src="./images/02-link.png" alt="상품 보러가기">
+      </a>
+    </div>
+  </div>
+
+  <!-- 유의사항 -->
+  <div class="hangul-day evt-notice">
+    <div class="evt-notice__title">
+      <button type="button" class="evt-notice__button">
+        <span>유의사항</span>
+      </button>
+    </div>
+    <ul class="evt-notice__content">
+      <li>주문 시 배송비는 별도 이며, 3만원 이상 주문 시 무료배송 됩니다.</li>
+      <li>쿠폰은 기간 내 ID 당 1회 다운로드 가능합니다.</li>
+      <li>구매 수량은 ID 당 1회로 제한 됩니다.</li>
+      <li>타 쿠폰과의 중복 적용은 불가합니다.</li>
+      <li>취소/반품 시 쿠폰은 재발급 되지 않습니다.</li>
+      <li>쿠폰은 사용 기한(다운로드 후 7일 간) 종료 시 자동 소멸됩니다.</li>
+      <li>쿠폰은 컷골프 RED (3구) 상품에만 적용 가능합니다.</li>
+      <li>쿠폰은 마이페이지 &gt; 쿠폰 에서 확인하실 수 있습니다.</li>
+      <li>본 이벤트는 당사의 사정에 따라 사전고지 없이 종료될 수 있습니다.</li>
+    </ul>
+  </div>
+</div>
+
+<script>(function (global) {// 유의사항
+const noticeRoot = document.querySelectorAll(".hangul-day.evt-notice");
+noticeRoot.forEach((element) => {
+  const noticeBtn = element.querySelector(".evt-notice__button");
+
+  noticeBtn.addEventListener("click", () => {
+    if (element.classList.contains("active")) {
+      element.classList.remove("active");
+    } else {
+      element.classList.add("active");
+    }
+  });
+});
+})(this);</script>
+
+</div>
+    </div>
+  </body>
+</html>
