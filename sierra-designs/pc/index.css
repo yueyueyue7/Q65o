@@ -1036,7 +1036,7 @@ body {
 .kolon-cttd-guide .ctns-txt-rolling {
   width: 100%;
   height: clamp(161px, 0px + 11.666666666666666vw, 224px);
-  background: url(../../images/pc-section-txt-roll.png) repeat-x 0 0 / 90.10416667%;
+  background: url(../images/pc-section-txt-roll.png) repeat-x 0 0 / 90.10416667%;
   position: absolute;
   left: 0;
   top: clamp(312.65625px, 0px + 22.65625vw, 435px);
@@ -1046,13 +1046,13 @@ body {
 .kolon-cttd-guide .ctns-logo-rolling {
   width: 100%;
   height: clamp(48.15625px, 0px + 3.4895833333333335vw, 67px);
-  background: 0 0 / clamp(48.15625px, 0px + 3.4895833333333335vw, 67px) url(../../images/pc-section-logo-roll-bg.jpg);
+  background: 0 0 / clamp(48.15625px, 0px + 3.4895833333333335vw, 67px) url(../images/pc-section-logo-roll-bg.jpg);
 }
 .kolon-cttd-guide .ctns-logo-rolling::after {
   content: "";
   width: 100%;
   height: clamp(20.84375px, 0px + 1.5104166666666667vw, 29px);
-  background: url(../../images/pc-section-logo-roll.png) repeat-x 0 0 / 15%;
+  background: url(../images/pc-section-logo-roll.png) repeat-x 0 0 / 15%;
   position: absolute;
   left: 0;
   bottom: clamp(14.375px, 0px + 1.0416666666666665vw, 20px);
@@ -1080,7 +1080,7 @@ body {
   display: block;
   width: clamp(33.0625px, 0px + 2.3958333333333335vw, 46px);
   height: clamp(17.96875px, 0px + 1.3020833333333335vw, 25px);
-  background: center / 100% no-repeat url(../../images/pc-section-arrow.png);
+  background: center / 100% no-repeat url(../images/pc-section-arrow.png);
   animation: moveArrow 0.8s ease-out infinite alternate;
 }
 .kolon-cttd-guide .kolon-cttd-swiper {
@@ -1134,7 +1134,7 @@ body {
   position: relative;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-visual {
-  background: 0 0 / cover no-repeat url(../../images/pc-visual-bg.jpg);
+  background: 0 0 / cover no-repeat url(../images/pc-visual-bg.jpg);
   height: clamp(789.1875px, 0px + 57.1875vw, 1098px);
 }
 .kolon-cttd-guide .kolon-cttd-ctns-visual .ctns-visual-img-01 {
@@ -1148,14 +1148,14 @@ body {
 .kolon-cttd-guide .kolon-cttd-ctns-visual .ctns-visual-txt-rolling {
   width: 100%;
   height: clamp(61.8125px, 0px + 4.479166666666667vw, 86px);
-  background: url(../../images/pc-visual-txt-roll.png) repeat-x 0 0 / 63.02083333%;
+  background: url(../images/pc-visual-txt-roll.png) repeat-x 0 0 / 63.02083333%;
   position: absolute;
   left: 0;
   bottom: clamp(56.0625px, 0px + 4.0625vw, 78px);
   animation: visualtxtRollx 9s linear infinite;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-01 {
-  background: 0 0 / cover no-repeat url(../../images/pc-section-01-bg.jpg);
+  background: 0 0 / cover no-repeat url(../images/pc-section-01-bg.jpg);
   padding: clamp(122.1875px, 0px + 8.854166666666668vw, 170px) 0;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-01 .ctns-01-txt-01 {
@@ -1163,7 +1163,7 @@ body {
   margin: 0 auto;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-02 {
-  background: 0 0 / cover no-repeat url(../../images/pc-section-02-bg.jpg);
+  background: 0 0 / cover no-repeat url(../images/pc-section-02-bg.jpg);
   padding: clamp(122.1875px, 0px + 8.854166666666668vw, 170px) 0;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-02 .ctns-txt-group {
@@ -1177,7 +1177,7 @@ body {
   width: clamp(566.375px, 0px + 41.041666666666664vw, 788px);
 }
 .kolon-cttd-guide .kolon-cttd-ctns-03 {
-  background: 0 0 / cover no-repeat url(../../images/pc-section-03-bg.jpg);
+  background: 0 0 / cover no-repeat url(../images/pc-section-03-bg.jpg);
   padding: clamp(115px, 0px + 8.333333333333332vw, 160px) 0 clamp(122.1875px, 0px + 8.854166666666668vw, 170px);
 }
 .kolon-cttd-guide .kolon-cttd-ctns-03 .ctns-03-img-01 {
@@ -1192,7 +1192,7 @@ body {
   margin-top: clamp(89.125px, -0.00000000000001421085px + 6.458333333333334vw, 124px);
 }
 .kolon-cttd-guide .kolon-cttd-ctns-04 {
-  background: 0 0 / clamp(71.875px, 0px + 5.208333333333334vw, 100px) url(../../images/pc-section-04-bg.jpg);
+  background: 0 0 / clamp(71.875px, 0px + 5.208333333333334vw, 100px) url(../images/pc-section-04-bg.jpg);
   padding: clamp(122.1875px, 0px + 8.854166666666668vw, 170px) 0;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-04 .ctns-04-img-01 {
@@ -1207,7 +1207,7 @@ body {
   margin-top: clamp(89.125px, -0.00000000000001421085px + 6.458333333333334vw, 124px);
 }
 .kolon-cttd-guide .kolon-cttd-ctns-05 {
-  background: 0 0 / cover no-repeat url(../../images/pc-section-05-bg.jpg);
+  background: 0 0 / cover no-repeat url(../images/pc-section-05-bg.jpg);
   padding: clamp(122.1875px, 0px + 8.854166666666668vw, 170px) 0;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-05 .ctns-txt-group {
@@ -1228,7 +1228,7 @@ body {
   position: static;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-06 {
-  background: 0 0 / clamp(71.875px, 0px + 5.208333333333334vw, 100px) url(../../images/pc-section-06-bg.jpg);
+  background: 0 0 / clamp(71.875px, 0px + 5.208333333333334vw, 100px) url(../images/pc-section-06-bg.jpg);
   padding: clamp(122.1875px, 0px + 8.854166666666668vw, 170px) 0;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-06 .ctns-06-txt-01 {
@@ -1246,7 +1246,7 @@ body {
   z-index: 3;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-08 {
-  background: 0 0 / cover no-repeat url(../../images/pc-section-08-bg.jpg);
+  background: 0 0 / cover no-repeat url(../images/pc-section-08-bg.jpg);
   padding: clamp(122.1875px, 0px + 8.854166666666668vw, 170px) 0;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-08 .ctns-txt-group {
@@ -1267,7 +1267,7 @@ body {
   position: static;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-09 {
-  background: 0 0 / cover no-repeat url(../../images/pc-section-09-bg.jpg);
+  background: 0 0 / cover no-repeat url(../images/pc-section-09-bg.jpg);
   padding: clamp(122.1875px, 0px + 8.854166666666668vw, 170px) 0;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-09 .ctns-txt-group {
@@ -1275,7 +1275,7 @@ body {
   margin: 0 auto;
 }
 .kolon-cttd-guide .kolon-cttd-ctns-10 {
-  background: 0 0 / cover no-repeat url(../../images/pc-section-10-bg.jpg);
+  background: 0 0 / cover no-repeat url(../images/pc-section-10-bg.jpg);
   padding: clamp(96.3125px, 0px + 6.979166666666667vw, 134px) 0 clamp(53.1875px, 0px + 3.854166666666667vw, 74px);
 }
 .kolon-cttd-guide .kolon-cttd-ctns-10 .ctns-10-txt-01 {
